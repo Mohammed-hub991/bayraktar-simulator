@@ -4,8 +4,6 @@ while True:
 
         mission_type = int(input("Enter Choice: "))
 
-
-        #JY add extra drone descriptions, and format output better - luqman
         if mission_type == 0:  # Terminate Program
              print("Program Terminated.")
              break
@@ -50,5 +48,5 @@ while True:
             print("----------------------------------------\n")
             break
         else: 
-            print("Invalid option, try again...")
+            print("Invalid option, try again... \n")
             continue
